@@ -6,7 +6,7 @@ During this project, there were a few things that I noticed. To start, there wer
 
 For the larger arrays such as 1000 or 2000, the gap between the implementations became a lot more obvious. With C without threads, it took 58.7883 seconds, and C with threads took 59.5243 seconds, which showed minimal benefit at this scale. With Python, obviously, there was much slower performance, with the time reaching as high as 1280.67 seconds without threads and 1865.73 seconds with threads. This inefficiency for Python's threading showed worse performance with threads than without.
 
-##Observations
+## Observations
 
 - For small array sizes (10-100), all implementations complete in milliseconds.
 
@@ -16,7 +16,7 @@ For the larger arrays such as 1000 or 2000, the gap between the implementations 
 
 - For large arrays (1000+), C remains highly efficient, while Python can take over 1800 seconds to complete a single run.
 
-##Dependencies
+## Dependencies
 Ensure you have:
 
 - GCC (with OpenMP support)
