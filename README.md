@@ -19,7 +19,7 @@ This script compiles the C implementations and runs the benchmark for different 
 ### 2. Run Python Implementations
 The script also executes Python versions of the benchmark automatically.
 
-### 3. View Results
+### 3. View Results (Note these results are specific to the system they were run on and may be different)
 The results are stored in `results.csv` in the format:
 ```
 Array Size,Time Without Threads (C),Time With Threads (C),Time With OpenMP,Time Without Threads (Python),Time With Threads (Python)
