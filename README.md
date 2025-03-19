@@ -1,4 +1,5 @@
 # Matrix Multiplication Benchmark
+(Note these results inside the repository are specific to the system they were run on and may be different)
 
 This repository benchmarks matrix multiplication performance across different implementations in C and Python. The benchmarks compare execution time for various array sizes using:
 
@@ -19,7 +20,7 @@ This script compiles the C implementations and runs the benchmark for different 
 ### 2. Run Python Implementations
 The script also executes Python versions of the benchmark automatically.
 
-### 3. View Results (Note these results are specific to the system they were run on and may be different)
+### 3. View Results 
 The results are stored in `results.csv` in the format:
 ```
 Array Size,Time Without Threads (C),Time With Threads (C),Time With OpenMP,Time Without Threads (Python),Time With Threads (Python)
